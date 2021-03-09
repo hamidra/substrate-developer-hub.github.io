@@ -97,8 +97,10 @@ also a nice graphical user interface called Polkadot-JS Apps, or just "Apps" for
 In your web browser, navigate to
 [https://polkadot.js.org/apps/#/settings?rpc=ws://127.0.0.1:9945](https://polkadot.js.org/apps/#/settings?rpc=ws://127.0.0.1:9945).
 
-> Some browsers, notably Firefox, will not connect to a local node from a https website. An easy
-> work around is to try another browser, like Chromium. Alternatively
+> Some Ad blockers (e.g. the built-in Sheild in Brave browser) will block the connection to the local node. 
+> Make sure to check and turn off the Ad blockers if you have any issues connecting to the local node.
+> Also some browsers, notably Firefox, will not connect to a local node from a https website. 
+> An easy work around is to try another browser, like Chromium. Alternatively
 > [host this interface locally](https://github.com/polkadot-js/apps#development).
 
 The link provided above includes the `rpc` URL parameter, which instructs the Apps UI to connect to
